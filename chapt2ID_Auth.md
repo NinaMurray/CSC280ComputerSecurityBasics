@@ -64,4 +64,18 @@ This `.md` file can be used for:
 
 ---
 
+### 🔐 Password Combination Calculator
 
+**Formula**:  
+\[
+\text{Total Combinations} = (\text{Character Set Size})^{\text{Password Length}}
+\]
+
+**Example**:  
+Character set: 26 lowercase + 26 uppercase + 10 digits = 62  
+Password length: 8  
+\[
+62^8 = 218,340,105,584,896 \text{ combinations}
+\]
+
+Use this to estimate password strength and entropy.
